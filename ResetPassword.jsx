@@ -1,0 +1,1 @@
+cria para encarregadi uma aba de justificartiva de faltas de colaboradores e o gesto pode alterar equipes altera encarreagdos etc

@@ -1,0 +1,25 @@
+{
+  "name": "AtividadeServico",
+  "type": "object",
+  "properties": {
+    "nome": {
+      "type": "string"
+    },
+    "ativo": {
+      "type": "boolean",
+      "default": true
+    },
+    "lider": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "local_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "nome"
+  ]
+}

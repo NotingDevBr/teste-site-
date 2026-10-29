@@ -1,0 +1,52 @@
+{
+  "name": "Movimento",
+  "type": "object",
+  "properties": {
+    "tipo_item": {
+      "type": "string",
+      "enum": [
+        "material",
+        "equipamento"
+      ]
+    },
+    "item_nome": {
+      "type": "string"
+    },
+    "acao": {
+      "type": "string",
+      "enum": [
+        "retirada",
+        "devolucao",
+        "entrada"
+      ]
+    },
+    "quantidade": {
+      "type": "number"
+    },
+    "unidade": {
+      "type": "string"
+    },
+    "relatorio_numero": {
+      "type": "string"
+    },
+    "frente": {
+      "type": "string"
+    },
+    "lider": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "at": {
+      "type": "string"
+    },
+    "local_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "item_nome",
+    "acao"
+  ]
+}

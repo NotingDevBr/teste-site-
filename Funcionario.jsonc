@@ -1,0 +1,34 @@
+{
+  "name": "Funcionario",
+  "type": "object",
+  "properties": {
+    "nome": {
+      "type": "string"
+    },
+    "matricula": {
+      "type": "string"
+    },
+    "cargo": {
+      "type": "string"
+    },
+    "equipe": {
+      "type": "string"
+    },
+    "ativo": {
+      "type": "boolean",
+      "default": true
+    },
+    "lider": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "local_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "nome"
+  ]
+}
